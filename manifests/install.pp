@@ -19,6 +19,7 @@ class prelink::install inherits prelink {
       command     => 'prelink -ua',
       refreshonly => true,
       require     => Package[$prelink::params::package_name],
+      timeout     => 0,
     }
   }
 
