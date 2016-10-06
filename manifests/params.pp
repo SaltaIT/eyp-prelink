@@ -1,9 +1,13 @@
 class prelink::params {
 
+  $package_name = 'prelink'
+
   case $::osfamily
   {
     'redhat':
     {
+      $config_file = '/etc/sysconfig/prelink'
+
       case $::operatingsystemrelease
       {
         /^[5-7].*$/:
@@ -14,6 +18,8 @@ class prelink::params {
     }
     'Debian':
     {
+      $config_file = '/etc/default/prelink'
+
       case $::operatingsystem
       {
         'Ubuntu':
