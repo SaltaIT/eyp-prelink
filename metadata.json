@@ -4,9 +4,9 @@
   "author": "eyp",
   "summary": "enables/disabled prelinking",
   "license": "Apache-2.0",
-  "source": "https://github.com/NTTCom-MS/eyp-prelink",
+  "source": "https://github.com/SaltaIT/eyp-prelink",
   "project_page": null,
-  "issues_url": "https://github.com/NTTCom-MS/eyp-prelink/issues",
+  "issues_url": "https://github.com/SaltaIT/eyp-prelink/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"},
     {"name":"eyp/eyplib","version_requirement":">= 0.1.0 < 0.2.0"}
